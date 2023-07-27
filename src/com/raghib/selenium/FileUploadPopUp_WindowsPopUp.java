@@ -21,5 +21,6 @@ public class FileUploadPopUp_WindowsPopUp {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id='fileupload']")).sendKeys(System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
+		//driver.quit();
 	}
 }
