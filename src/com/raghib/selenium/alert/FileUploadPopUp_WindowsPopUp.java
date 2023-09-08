@@ -27,7 +27,7 @@ public class FileUploadPopUp_WindowsPopUp extends BaseClass {
 		driver.get(url);
 		
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id='fileupload']")).sendKeys(System.getProperty("user.dir")+"\\Driver\\chromedriver.exe");
+		driver.findElement(By.xpath("//*[@id='fileupload']")).sendKeys(System.getProperty("user.dir")+"\\PictureForUpload\\Robot-1.JPG");
 		//BaseClass.quitDriver();
 	}
 }
